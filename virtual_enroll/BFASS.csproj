@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{799A9DBF-51D2-48C5-8357-7EB5FD266F16}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BFASS</RootNamespace>
+    <AssemblyName>BFASS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CookComputing.XmlRpcV2">
+      <HintPath>C:\Users\yuriys\Desktop\xml-rpc.net.2.5.0\src\obj\Debug\CookComputing.XmlRpcV2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="enroll_keyfobs_keypadsPM30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enroll_keyfobs_keypadsPM30.Designer.cs">
+      <DependentUpon>enroll_keyfobs_keypadsPM30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enroll_sirens_repeatersPM30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enroll_sirens_repeatersPM30.Designer.cs">
+      <DependentUpon>enroll_sirens_repeatersPM30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enroll_zonesPM30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enroll_zonesPM30.Designer.cs">
+      <DependentUpon>enroll_zonesPM30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help.Designer.cs">
+      <DependentUpon>help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LCD.Designer.cs">
+      <DependentUpon>LCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PM.cs" />
+    <Compile Include="PowerMaster10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerMaster10.Designer.cs">
+      <DependentUpon>PowerMaster10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerMaster30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerMaster30.Designer.cs">
+      <DependentUpon>PowerMaster30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendRequests.cs" />
+    <EmbeddedResource Include="enroll_keyfobs_keypadsPM30.resx">
+      <DependentUpon>enroll_keyfobs_keypadsPM30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enroll_sirens_repeatersPM30.resx">
+      <DependentUpon>enroll_sirens_repeatersPM30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enroll_zonesPM30.resx">
+      <DependentUpon>enroll_zonesPM30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LCD.resx">
+      <DependentUpon>LCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerMaster10.resx">
+      <DependentUpon>PowerMaster10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerMaster30.resx">
+      <DependentUpon>PowerMaster30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Master_30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klava1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture 001_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\away.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture 001__.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\disarm.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\rewetka.png" />
+    <None Include="Resources\0.png" />
+    <None Include="Resources\zvezdo4ka.png" />
+    <None Include="Resources\9.png" />
+    <None Include="Resources\8.png" />
+    <None Include="Resources\7.png" />
+    <None Include="Resources\6.png" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\4.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\panic.png" />
+    <None Include="Resources\fire.png" />
+    <None Include="Resources\emergency.png" />
+    <None Include="Resources\OK.png" />
+    <None Include="Resources\next.png" />
+    <None Include="Resources\pm30_LCDnew.png" />
+    <None Include="Resources\PM30_800new.jpg" />
+    <None Include="Resources\PM30_800_.png" />
+    <None Include="Resources\pm30_LCD.png" />
+    <None Include="Resources\PM30_800.png" />
+    <None Include="Resources\Master_30_300.jpg" />
+    <None Include="Resources\PM10_300.png" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\PM10_lcd.png" />
+    <None Include="Resources\PM10_800.png" />
+    <None Include="Resources\PM10_smaller.png" />
+    <None Include="Resources\PM10.png" />
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

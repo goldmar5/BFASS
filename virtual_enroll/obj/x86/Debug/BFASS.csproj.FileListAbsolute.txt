@@ -1,0 +1,17 @@
+D:\Projects_C#\virtual_enroll\virtual_enroll\bin\Debug\favicon.ico
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.enroll_keyfobs_keypadsPM30.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.enroll_sirens_repeatersPM30.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.enroll_zonesPM30.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.help.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.LCD.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.main.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.PowerMaster10.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.PowerMaster30.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.Properties.Resources.resources
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.csproj.GenerateResource.Cache
+d:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.csprojResolveAssemblyReference.cache
+d:\Projects_C#\virtual_enroll\virtual_enroll\bin\Debug\BFASS.exe.config
+d:\Projects_C#\virtual_enroll\virtual_enroll\bin\Debug\BFASS.exe
+d:\Projects_C#\virtual_enroll\virtual_enroll\bin\Debug\BFASS.pdb
+d:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.exe
+d:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\BFASS.pdb

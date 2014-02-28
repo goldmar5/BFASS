@@ -1,0 +1,14 @@
+D:\Projects_C#\virtual_enroll\virtual_enroll\bin\Debug\virtual_enroll.exe.config
+D:\Projects_C#\virtual_enroll\virtual_enroll\bin\Debug\virtual_enroll.exe
+D:\Projects_C#\virtual_enroll\virtual_enroll\bin\Debug\virtual_enroll.pdb
+D:\Projects_C#\virtual_enroll\virtual_enroll\bin\Debug\CookComputing.XmlRpcV2.pdb
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\virtual_enroll.exe
+D:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\virtual_enroll.pdb
+d:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\PowerMasterSuite.enroll_detector.resources
+d:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\PowerMasterSuite.main.resources
+d:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\PowerMasterSuite.PowerMaster10.resources
+d:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\PowerMasterSuite.PowerMaster30.resources
+d:\Projects_C#\virtual_enroll\virtual_enroll\obj\x86\Debug\PowerMasterSuite.Properties.Resources.resources
